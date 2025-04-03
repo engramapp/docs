@@ -1,0 +1,60 @@
+/* Dark mode colors. */
+:root {
+	--sl-color-accent-low: #131e4f;
+	--sl-color-accent: #a9d5f9;
+	--sl-color-accent-high: #a9d5f9;
+	/* --sl-color-white: #ffffff;
+	--sl-color-gray-1: #eceef2;
+	--sl-color-gray-2: #c0c2c7;
+	--sl-color-gray-3: #888b96;
+	--sl-color-gray-4: #545861;
+	--sl-color-gray-5: #353841;
+	--sl-color-gray-6: #24272f;
+	--sl-color-black: #17181c; */
+}
+
+.starlight-aside--tip {
+    --callout-color: 169 213 249;
+    --sl-color-asides-text-accent: rgb(var(--callout-color));
+    --sl-color-asides-border: rgb(var(--callout-color));
+    background-color: rgb(var(--callout-color) / 0.18);
+}
+
+.sl-markdown-content :is(h1, h2, h3, h4, h5, h6) > a {
+    color: var(--sl-color-white);
+    text-decoration: none;
+  
+    &:hover {
+      /* text-decoration: underline; */
+      color: var(--sl-color-accent);
+    }
+}
+
+table code {
+    background-color: transparent!important;
+    color: #C5E478!important;
+    /* color: rgb(114, 215, 110)!important; */
+}
+
+/* .inline-icon {
+    display: flex;
+    align-items: center;
+} */
+.inline-icon > svg {
+    /* // margin: 0 6px; */
+    display: inline-block;
+    transform: translateY(6px);
+}
+
+.answer-again {
+    color: #f87171;
+}
+.answer-hard {
+    color: #fbbf24;
+}
+.answer-good {
+    color: #4ade80;
+}
+.answer-easy {
+    color: #a9d5f9;
+}
