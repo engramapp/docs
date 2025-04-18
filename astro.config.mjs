@@ -19,6 +19,16 @@ export default defineConfig({
       customCss: [
           './src/styles/docs.css',
       ],
+      head: [
+        {
+          tag: 'meta',
+          attrs: {
+            property: 'og:image',
+            content: 'https://help.engramapp.com/logo_banner_card.png',
+          },
+        },
+        // You can add other global head elements here
+      ],
       // sidebar,
       sidebar: [
           { label: 'Home', link: '/' },
