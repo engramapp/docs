@@ -24,7 +24,7 @@ export default defineConfig({
           tag: 'meta',
           attrs: {
             property: 'og:image',
-            content: 'https://help.engramapp.com/logo_banner_card.png',
+            content: 'https://docs.engramapp.com/logo_banner_card.png',
           },
         },
         // You can add other global head elements here
